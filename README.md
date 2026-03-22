@@ -1,6 +1,6 @@
 # Data Structure
 
-Repositório para códigos de projetos e estudos sobre estrutura de dados
+Repositório com implementações práticas de estruturas de dados em C++, focado no aprendizado progressivo e na aplicação dos conceitos fundamentais.
 
 ## Pilha (Stack)
 
@@ -8,11 +8,16 @@ Estrutura de dados linear baseada no princípio **LIFO (Last In, First Out)**, o
 
 ### Nivel 1
 
-#### Pilha básica
+Implementações iniciais para entender o funcionamento básico da pilha.
 
-Implementação de uma pilha utilizando vetor, com as operações básicas:
+---
 
-- [ex1.cpp](exercicios/pilha/ex1.cpp) 
-  - Empilhar.
-  - Desempilhar.
-  - Visualizar.
+#### Pilha básica: [ex1_stack.cpp](exercicios/pilha/ex1_stack.cpp) 
+
+  - Função para empilhar.
+  - Função para desempilhar.
+  - Função para visualizar.
+
+#### Tamanho da pilha: [ex2_stack.cpp](exercicios/pilha/ex2_stack.cpp)
+
+  - Função para ver tamanho da pilha.
