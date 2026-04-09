@@ -38,3 +38,7 @@ Implementações iniciais de pilha.
 #### Tamanho da fila: [ex2_queue.cpp](exercises/queue/ex2_queue.cpp) 
 
   - Size (Ver tamanho).
+
+#### Frente da fila: [ex3_queue.cpp](exercises/queue/ex3_queue.cpp) 
+
+  - Front (Ver frente).
