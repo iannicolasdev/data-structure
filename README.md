@@ -10,17 +10,17 @@ Implementações iniciais de pilha.
 
 ---
 
-#### Pilha básica: [ex1_stack.cpp](exercicios/pilha/ex1_stack.cpp) 
+#### Pilha básica: [ex1_stack.cpp](exercises/stack/ex1_stack.cpp) 
 
   - Push (Empilhar).
   - Pop (Desempilhar).
   - View (Visualizar).
 
-#### Tamanho da pilha: [ex2_stack.cpp](exercicios/pilha/ex2_stack.cpp)
+#### Tamanho da pilha: [ex2_stack.cpp](exercises/stack/ex2_stack.cpp)
 
   - Size (Ver tamanho).
 
-#### Topo da pilha: [ex3_stack.cpp](exercicios/pilha/ex3_stack.cpp)
+#### Topo da pilha: [ex3_stack.cpp](exercises/stack/ex3_stack.cpp)
 
   - Peek (Ver topo).
 
@@ -30,11 +30,11 @@ Implementações iniciais de pilha.
 
 ### Nivel 1
 
-#### Fila básica: [ex1_queue.cpp](exercicios/fila/ex1_queue.cpp) 
+#### Fila básica: [ex1_queue.cpp](exercises/queue/ex1_queue.cpp) 
 
   - Enqueue (Enfileirar). 
   - Dequeue (Desenfileirar).
 
-#### Tamanho da fila: [ex2_queue.cpp](exercicios/fila/ex2_queue.cpp) 
+#### Tamanho da fila: [ex2_queue.cpp](exercises/queue/ex2_queue.cpp) 
 
   - Size (Ver tamanho).
