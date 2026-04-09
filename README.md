@@ -28,7 +28,13 @@ Implementações iniciais de pilha.
 
 ## Fila (Queue)
 
+### Nivel 1
+
 #### Fila básica: [ex1_queue.cpp](exercicios/fila/ex1_queue.cpp) 
 
   - Enqueue (Enfileirar). 
   - Dequeue (Desenfileirar).
+
+#### Tamanho da fila: [ex2_queue.cpp](exercicios/fila/ex2_queue.cpp) 
+
+  - Size (Ver tamanho).
