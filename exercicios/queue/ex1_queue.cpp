@@ -1,89 +1,86 @@
 #include <iostream>
-#include <stdlib.h>
 
 using namespace std;
 
-const int TAM = 3;
+const int MAX_SIZE = 3;
 
-void visualizar(int fim, int fila[]) {
-    if (fim == 0) {
-        cout << "fila vazia\n";
+void printQueue(int size, int queueArr[]) {
+    if (size == 0) {
+        cout << "Empty queue.\n\n";
         return;       
     }
-    for(int i = 0; i < fim; i++) {
-        cout << fila[i] << " ";
-    }
+
     cout << "\n";
+    for(int i = 0; i < size; i++) {
+        cout << "[" <<queueArr[i] << "] ";
+    }
+    cout << "\n\n";
 }
 
-void inserir(int &fim, int fila[]) {
-    int valor; 
+void enqueue(int &size, int queueArr[]) {
+    int value; 
 
-    if (fim == TAM) {
-        cout << "fila cheia\n";
+    if (size == MAX_SIZE) {
+        cout << "Full queue.\n\n";
         return;
-
     } 
-    cout << "Inserir: ";
-    cin >> valor;
-    fila[fim] = valor;
+
+    cout << "Enter value: ";
+    cin >> value;
+    queueArr[size] = value;
     
-    fim++;
-    visualizar(fim, fila);
+    size++;
+    printQueue(size, queueArr);
 }
 
-void remover(int &fim, int fila[]) {
-    if (fim == 0) {
-        cout << "fila vazia\n";
+void dequeue(int &size, int queueArr[]) {
+    if (size == 0) {
+        cout << "Empty queue.\n\n";
         return;
     }
-    cout << "Removido: " << fila[0] << "\n";
 
-    for (int i = 0; i < fim - 1; i++) {
-        fila[i] = fila[i + 1];
+    cout << "Removed: " << queueArr[0] << "\n";
+    for (int i = 0; i < size - 1; i++) {
+        queueArr[i] = queueArr[i + 1];
     }
 
-    fim--; 
-    visualizar(fim, fila);
+    size--; 
+    printQueue(size, queueArr);
 }
 
 int main() {
-    int fila[TAM] = {0};
-    int fim = 0;
-    int controle = 1;
+    int queueArr[MAX_SIZE] = {0};
+    int size = 0;
 
-    while (controle == 1) {
+    cout << "------------------\n";
+    cout << "0 - Exit\n";
+    cout << "1 - Insert\n";
+    cout << "2 - Remove\n";
+    cout << "3 - View\n\n";
 
-        int escolha;
+    while (true) {
 
-        cout << "=========MENU=========\n\n";
-        cout << "0 - Sair\n";
-        cout << "1 - Inserir\n";
-        cout << "2 - Remover\n";
-        cout << "3 - Visualizar\n\n";
+        int choice;
         
-        cout << "Escolha: ";
-        cin >> escolha;
+        cout << "Choice: ";
+        cin >> choice;
 
-        switch (escolha) {
-            case 0:
-                controle = 0;
-                break;
+        if (choice == 0) break;
+
+        switch (choice) {
             case 1:
-                inserir(fim, fila);
+                enqueue(size, queueArr);
                 break;
             case 2:
-                remover(fim, fila);
+                dequeue(size, queueArr);
                 break;
             case 3:
-                visualizar(fim, fila);
+                printQueue(size, queueArr);
                 break;    
             default:
-                cout << "Opcao invalida\n";
+                cout << "Invalid option.\n\n";
                 break;
             }
-            system("PAUSE");
-            system("cls");
         }
 
     return 0;
