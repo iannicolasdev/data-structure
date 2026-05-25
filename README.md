@@ -6,10 +6,6 @@ Repositório com implementações práticas de estruturas de dados em C++.
 
 ### Nivel 1
 
-Implementações iniciais de pilha.
-
----
-
 #### Pilha básica: [ex1_stack.cpp](exercises/stack/ex1_stack.cpp) 
 
   - Push (Empilhar).
@@ -42,3 +38,13 @@ Implementações iniciais de pilha.
 #### Frente da fila: [ex3_queue.cpp](exercises/queue/ex3_queue.cpp) 
 
   - Front (Ver frente).
+
+---
+
+## Lista encadeada (Linked list)
+
+### Nivel 1
+
+#### Lista básica: [ex1_linked_list.cpp](exercises/linked_list/ex1_linked_list.cpp)
+  - Node (Nó)
+  - Next (Próximo nó)
