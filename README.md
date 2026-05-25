@@ -48,3 +48,9 @@ Repositório com implementações práticas de estruturas de dados em C++.
 #### Lista básica: [ex1_linked_list.cpp](exercises/linked_list/ex1_linked_list.cpp)
   - Node (Nó)
   - Next (Próximo nó)
+
+#### Visualizar lista: [ex2_linked_list.cpp](exercises/linked_list/ex2_linked_list.cpp)
+  - Current (Nó atual)
+
+#### Tamanho da lista: [ex3_linked_list.cpp](exercises/linked_list/ex3_linked_list.cpp)
+  - Size (Ver tamanho)
