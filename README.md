@@ -10,7 +10,7 @@ Repositório com implementações práticas de estruturas de dados em C++.
 
   - Push (Empilhar).
   - Pop (Desempilhar).
-  - View (Visualizar).
+  - PrintStack (Visualizar).
 
 #### Tamanho da pilha: [ex2_stack.cpp](exercises/linear/stack/ex2_stack.cpp)
 
@@ -46,11 +46,26 @@ Repositório com implementações práticas de estruturas de dados em C++.
 ### Nivel 1
 
 #### Lista básica: [ex1_linked_list.cpp](exercises/linear/linked_list/ex1_linked_list.cpp)
+
   - Node (Nó)
   - Next (Próximo nó)
 
 #### Visualizar lista: [ex2_linked_list.cpp](exercises/linear/linked_list/ex2_linked_list.cpp)
+
   - Current (Nó atual)
 
 #### Tamanho da lista: [ex3_linked_list.cpp](exercises/linear/linked_list/ex3_linked_list.cpp)
+
   - Size (Ver tamanho)
+
+--- 
+
+## Árvore (Tree)
+
+### Nivel 1
+
+#### Árvore básica: [ex1_tree.cpp](exercises/non-linear/tree/ex1_tree.cpp)
+
+  - Root (Raiz)
+  - Left (Nó a esquerda da raiz)
+  - Right (Nó a direita da raiz)
